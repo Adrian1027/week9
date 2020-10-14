@@ -158,6 +158,7 @@ export class ActorComponent implements OnInit {
     this.dbService.AddMovieActor(actorID,movieID).subscribe(result =>{
       this.onGetActors;
     });
+    
 
   }
   // This lifecycle callback function will be invoked with the component get initialized by Angular.
